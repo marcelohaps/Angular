@@ -13,6 +13,10 @@ export class HeroesComponent {
 
   selectedHero?: Hero;
 
+
+
+  onSelected(hero:Hero):void{
+    this.selectedHero = hero;
   }
 
-
+}
